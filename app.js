@@ -1,10 +1,8 @@
-document.getElementById("btnKid").addEventListener("click", ()=>{
-	document.getElementById("btnKid").style.display="none";
-	document.getElementById("btnAdult").style.display="none";
-	document.getElementById("moviesKids").style.display="block";
-})
-document.getElementById("btnAdult").addEventListener("click", ()=>{
-	document.getElementById("btnKid").style.display="none";
-	document.getElementById("btnAdult").style.display="none";
-	document.getElementById("moviesKids").style.display="block";
-})
+let showMovies = (arr) => {
+  arr.forEach(element => {
+    let link = window.logic.createLink(element.id)
+    fetch(link)
+    .then((response) => {
+      return response.json();
+      console.log(link);
+    })
