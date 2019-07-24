@@ -1,3 +1,4 @@
+
 header{
 	height: 50px;
 }
@@ -38,7 +39,6 @@ button{
 	justify-content: space-evenly;
 	width: 60%;
 	margin: 0 auto;
-	
 }
 .ocultar{
 	display: none;
