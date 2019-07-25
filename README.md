@@ -48,8 +48,6 @@ https://andreagonzalez93.github.io/SCL010-data-lovers/src/index.html
 <br>
 <br>
 <br>
-# Anexo Data Lovers.
-
 ## Paleta de Colores.
 
 Antes de comenzar el proyecto se pensó en los colores que debía llevar la pagina y en los talleres aprendimos que debíamos usar dos colores además de las paletas de grises, al ir observando como eran los estilos de otras paginas web de la serie, nos dimos cuenta que tenían un patrón en común y era un fondo negro y dorado que hacia lucir la pagina un poco mas elegante y atractiva a la vista del usuario ademas de tratar de simular una sala de cine usando los colores burdeos que represenytaban las cortinas de los teatros .

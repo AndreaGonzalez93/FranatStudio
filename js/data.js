@@ -12,14 +12,19 @@ const apiKey='3f3e1606';
 
 const getData=(data, clasification, category)=>{
 	let infoMovies=[];
+	//foteach es mi nuevo i ya no agregar incremento y variable
 	data.forEach(element => {
+		//revisa si la pelicula debe consultarse o no (para evitar que se muestren las no clasificadas )
 		if(element.calification==clasification && element.category==category){
 		fetch(`${apiUrl}${apiKey}&i=${element.id}`)
 		.then(function(response){
 			return response.json();
 		})
+		//en info guardo la data
 		.then((info)=> {
+			//en info movies guardo las peliculas buscadas
 			infoMovies.push(info);
+			//generando tarjetas
 			let moviesSection=document.getElementById('movies');
 			moviesSection.innerHTML+=`<div class="card" n="${element.id}" style="background-image: url(${info.Poster};)" onclick="showModal('${element.id}')" data-toggle="modal" data-target="#exampleModalScrollable"></div>`;
 			return;

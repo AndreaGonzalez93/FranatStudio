@@ -6,8 +6,7 @@
 let dataMovies;
 
 const loadCards = () => {
-    dataMovies=getData(movies.movies, 2, '', 'movies');
-    console.log(dataMovies);
+    dataMovies=getData(movies.movies, 2, '');
 }
 
 loadCards();
