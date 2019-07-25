@@ -18,8 +18,14 @@ Nuestro producto es llamado Franati Studio y fue hecho para poder conocer la gam
 
 Franati puede ser ejecutado desde cualquier navegador web, tablet o celular. No necesita mayores requerimientos para su funcionamiento.
 
-1. primero dirigete a nuestra pagina con este link []
+1.Dirígete a la dirección web de la aplicación, puedes ingresar mediante este link
 
-2. Encontraras nuestra pagina de inicio 
+2. En nuestra primera pagina tenemos nuestro logo, un menu con boton inicio e informacion luego damos la opcion al usuario de elegir entre peliculas tipo infantil o adulto
+
+3. Si haces "click" en infantil nos lleva a una segunda plana mostrando en forma de carrusel las peliculas mas destacadas.
+
+4. Si bajas veras mas peliculas tambien un filtro por genero y un buscador. lo mismo con la de adultos.
+
+5. ¡Listo!, ya puedes tener el conocimiento de las peliculas mas destacadas de la historia del cine.
 
 
