@@ -145,7 +145,7 @@ const MOVIES = {
       "id": "tt0332280",
       "calification": "",
       "category": "romance",
-    },,{
+    },{
       "id": "tt0099487",
       "calification": "",
       "category": "romance",

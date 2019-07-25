@@ -3,12 +3,41 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="style.css">
 	<title>Hackaton</title>
 </head>
 
 
 <body>
+
+	<div class="container">	
+		<div class="row">	
+		<div class="col">	
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner " id="showHere">
+				  	<div class="carousel-item active">
+				  		<img src="https://m.media-amazon.com/images/M/MV5BNmU5OTQ0OWQtOTY0OS00Yjg4LWE1NDYtNDRhYWMxYWY4OTMwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" alt="" class="d-block w-100">	
+				  	</div>
+				   
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>		
+		</div>
+		</div>
+	</div>
+	<div id="backgroundImg">
+		<img src="cine.jpg" alt="">
+
 	<header>
 		<ul>
 			<li class="active"><a href="index.html">Inicio</a></li>
@@ -16,11 +45,13 @@
 		</ul>
 	</header>
 	<div id="backgroundImg" class="text-center">
-		<img src="1699.jpg" alt="">
+		<img src="1699.png" alt="">
+
 	</div>
 
 	<div id="sections" class="text-center">
 		<button type="button" id="btnKid">Niños</button>
+		<button type="button" id="btnAdult">Adultos</button>
 	</div>
 	<div id="moviesKids" class="ocultar">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur adipisci consectetur, esse beatae ratione
@@ -30,6 +61,14 @@
 	<footer>
 		<img src="" alt="">
 	</footer>
-	<script src="app.js"></script>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="movies.js"></script>
+	<script src="data.js"></script>
+ 
+
 </body>
 </html>
