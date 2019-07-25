@@ -7,7 +7,7 @@
 // 	}
 // }
 
-const apiUrl='http://www.omdbapi.com/?apikey=';
+const apiUrl='https://www.omdbapi.com/?apikey=';
 const apiKey='3f3e1606';
 
 const getData=(data, clasification, category)=>{
